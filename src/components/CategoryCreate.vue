@@ -13,7 +13,7 @@
           v-model="title"
           :class="{invalid: $v.title.$dirty && !$v.title.required}"
       >
-      <label for="name">Название</label>
+      <label for="name">!Название!</label>
       <span 
       v-if="$v.title.$dirty && !$v.title.required"
       class="helper-text invalid"
